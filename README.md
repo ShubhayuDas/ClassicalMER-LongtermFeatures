@@ -7,3 +7,12 @@ Our data was split into 3 catagories based on the audio features used : Temporal
 The models used are Support Vector Regression, Random Forrest Regression, and an Artificail Nueural Network with 2 layers and 90 nodes in each layer. The dataset of was split into train and test (in an 80:20 ratio). On the training set 10 fold crossvalidation was applied and the hyperparameters were tuned using Grid Seach. 
 
 The analysis is done on the dataset as well as the model used.
+
+Note: We have used python notebooks for ease of flow and better comprihensibility. The Random Forest model however exceded the 25MB limit and hence is included as a python file.
+
+#Dependencies
+
+tensorflow
+sklearn
+numpy
+pandas
